@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>iShouvik Easy Adverts</name>
+	<id>ishouvik_adverts</id>
+	<author>Shouvik Mukherjee - iShouvik.com</author>
+	<version>1.9</version>
+	<category>theme</category>
+	<category>enhancement</category>
+	<category>iShouvik</category>
+	<description>Easy adverts on the sidebar and footer for elgg 1.9</description>
+	<screenshot>
+        <description>Plugins</description>
+        <path>screenshots/plugins.png</path>
+    </screenshot>
+	<screenshot>
+        <description>Settings Page</description>
+        <path>screenshots/settings.png</path>
+    </screenshot>
+	<website>http://ishouvik.com</website>
+	<copyright>See COPYRIGHT.txt</copyright>
+	<license>GNU General Public License version 2</license>
+	<requires>
+		<type>elgg_release</type>
+		<version>1.9</version>
+	</requires>
+	<requires>
+		<type>priority</type>
+		<priority>after</priority>
+		<plugin>search</plugin>
+	</requires>
+	<requires>
+		<type>priority</type>
+		<priority>after</priority>
+		<plugin>profile</plugin>
+	</requires>
+	<activate_on_install>false</activate_on_install>
+</plugin_manifest>
